@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 400 normal 14px/1.5 sans-serif;
+  background-color: #c1fbc7;
+  min-height: 100vh;
+  color: #444;
+}
+.df {
+  display: flex;
+}
+.fdc {
+  flex-direction: column;
+}
+.tac {
+  text-align: center;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.f1 {
+  flex: 1;
+}
+.m-0 {
+  margin: 0;
+}
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+header {
+  background-color: #0009;
+}
+header h1 {
+  font-size: 25px;
+  color: #dcfa6f;
+}
+header h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ccc;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #777;
+}
+section {
+  flex: 1 1 auto;
+  position: relative;
+}
+footer {
+  background-color: #fff9;
+  padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #4d644f;
+}
+.item {
+  border: 1px solid #0002;
+  padding: 10px;
+  box-shadow: 0 0 15px #0005;
+}
+.analog {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 10px solid #4d644f;
+  box-shadow: 0 0 15px #000a;
+  background-image: radial-gradient(circle at center, #507d9c 8px, transparent 8px),
+    radial-gradient(circle at center, white 50%, transparent 50%, transparent 65%, white 65%),
+    linear-gradient(to right, transparent 50%, #507d9c 50%, transparent 51%),
+    linear-gradient(to bottom, transparent 50%, #507d9c 50%, transparent 51%),
+    linear-gradient(-30deg, transparent 50%, #507d9c 50%, transparent 51%),
+    linear-gradient(30deg, transparent 50%, #507d9c 50%, transparent 51%),
+    linear-gradient(60deg, transparent 50%, #507d9c 50%, transparent 51%),
+    linear-gradient(-60deg, transparent 50%, #507d9c 50%, transparent 51%);
+}
+.analog .hour {
+  position: absolute;
+  height: 50px;
+  width: 5px;
+  margin: auto;
+  top: -20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #507d9c;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+}
+.analog .minute {
+  position: absolute;
+  height: 70px;
+  width: 5px;
+  margin: auto;
+  top: -30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #507d9c;
+  transform-origin: bottom;
+  transform: rotate(90deg);
+}
+.analog .second {
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  margin: auto;
+  top: -35%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #507d9c;
+  transform-origin: bottom;
+  transform: rotate(180deg);
+}
+.digital {
+  font-size: 20px;
+}
