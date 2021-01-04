@@ -10,7 +10,7 @@ function updateDigital(hours, minutes, seconds, date = new Date()) {
   document.querySelector('.digital .hour').innerHTML = prepend(hours);
   document.querySelector('.digital .minute').innerHTML = prepend(minutes);
   document.querySelector('.digital .second').innerHTML = prepend(seconds);
-  document.querySelector('.item .date').innerHTML = date.toLocaleDateString('en-gb', { day: 'numeric', month: 'short', year: 'numeric' });
+  document.querySelector('.item .date').innerHTML = date.toLocaleDateString('en-gb', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
 setClockWithCurrentTime();
@@ -27,3 +27,5 @@ function setClockWithCurrentTime() {
 }
 
 setInterval(setClockWithCurrentTime, 1000);
+
+document.getElementById('year').innerText = new Date().getFullYear();
