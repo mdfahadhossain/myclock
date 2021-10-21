@@ -1,3 +1,3 @@
-# Glock | Global Clock
+# MyClock
 
-[Open Glock](https://fkgfahad.github.io/glock)
+[Open MyClock](https://fhdaax.github.io/myclock)
