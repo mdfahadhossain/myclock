@@ -1,3 +1,3 @@
 # MyClock
 
-[Open MyClock](https://fhdaax.github.io/myclock)
+[Open MyClock](https://fahadlabs.github.io/myclock)
